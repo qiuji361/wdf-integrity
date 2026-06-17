@@ -1,6 +1,6 @@
 {
-  "version": "7.2",
-  "versionCode": 720,
+  "version": "7.3",
+  "versionCode": 730,
   "zipUrl": "https://github.com/qiuji361/wdf-integrity/releases/latest/download/wdf_sukisu_env.zip",
   "changelog": "https://raw.githubusercontent.com/qiuji361/wdf-integrity/main/CHANGELOG.md"
 }
