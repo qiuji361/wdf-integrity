@@ -3,9 +3,7 @@
 ## 7.6
 
 - 远程更新版，版本号 `7.6 / 760`。
-- 对应本地桥接/测试底包 `7.5.1 / 751`，已在一加 `PKG110 / SM8650` 上完成本地包与远程包刷入冒烟。
-- 保留 CPUWZ v1.8 多 profile、Zygisk Next、SUSFS4KSU 保守配置链路；不强开 SUS-SU。
-- Release 资产固定为 `wdf_sukisu_env.zip`，远程校验使用 `v7.6/hashes.txt` 与 `v7.6/hashes.txt.sig`。
+- 新增启动器。
 
 ## 7.5
 
