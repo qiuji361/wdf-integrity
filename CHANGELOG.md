@@ -1,5 +1,14 @@
 # 更新日志
 
+## 7.6.10
+
+- WDF 本地首装包与远程更新包升级到 `7.6.10 / 7610 · 20260809.220246 · 01a00ab5e4c0`。
+- 机型模拟正式目录扩展到 121 款；本轮在公网机型 Release 中完成 15 款新增和 3 款原位更新。
+- CPU/GPU 页面接入 `cpuwz v1.9-exp`：25 个 profile 全部开放，其中 7 个 CPU/GPU 联动，18 个 GPU-only 仅切换 GPU 并保持当前 CPU。
+- GPU-only 模式保留真实 `cpuinfoReady=false` 诊断，不生成或拼接缺失的 `.cpuinfo`，切换前后强制校验 CPU SHA 不变。
+- 指定真机完成 `V2403A / iQOO Neo9S Pro+ / QTI SM8650 / Qualcomm Adreno 750` 组合验收，并通过 WDF loader、local verify、SUSFS 与延迟复验。
+- 远程 ZIP、22 项完整性清单和 Ed25519 签名来自同一次构建；远程包仍仅用于已有桥接标记的设备在线更新。
+
 ## 7.6.6
 
 - 修复高级防误判的BUG。
